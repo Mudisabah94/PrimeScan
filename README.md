@@ -19,10 +19,10 @@ Then enter a number to check if it's prime, or type "close" to exit.
 
 ```
 Enter you numeral: 17
-17 Numeral is Prime
+17cis Prime
 
 Enter you numeral: 20
-20 Numeral is not Prime
+20cis not Prime
 
 Enter you numeral: close
 Shutdown

@@ -22,6 +22,6 @@ while True:
 
     #Check if the integer is prime
     if Prime(number):
-        print(number, "Numeral is Prime")
+        print(number, "is Prime")
     else:
-        print(number, "Numeral is not Prime")
+        print(number, "is not Prime")
