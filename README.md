@@ -1,11 +1,12 @@
 # PrimeScan
 
-A simple Python utility to check whether a given number is prime or not.
+A simple Python GUI application to check whether a given number is prime or not.
 
 ## Features
-- Interactive command-line interface
+- User-friendly graphical interface
 - Efficient prime number checking using square root optimization
-- Real-time user input handling
+- Real-time input validation and feedback
+- Clean and intuitive design
 
 ## Usage
 
@@ -13,20 +14,19 @@ A simple Python utility to check whether a given number is prime or not.
 python Prime.py
 ```
 
-Then enter a number to check if it's prime, or type "close" to exit.
-
-## Example
-
-```
-Enter you numeral: 17
-17 is Prime
-
-Enter you numeral: 20
-20 is not Prime
-
-Enter you numeral: close
-Shutdown
-```
+A GUI window will open with:
+- An input field to enter a number
+- A "Check" button to verify if the number is prime
+- A result display showing whether the number is prime or not
+- Type "close" in the input field to exit the application
 
 ## Requirements
 - Python 3.x
+- Tkinter (usually included with Python installations)
+
+## Example Usage
+1. Run the program
+2. Enter a number in the input field (e.g., 17)
+3. Click "Check"
+4. The result will display: "17 is a Prime numeral ✓"
+5. To exit, enter "close" and click "Check"
